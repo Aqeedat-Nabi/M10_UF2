@@ -1,0 +1,6 @@
+value = float(input("Enter a value in € : \n"))
+print("The value is : " + str(value) + " €")
+VAT = float(input("Enter the VAT to be applied (4%, 10% or 21%) : \n"))
+print("The VAT requested is : " + str(VAT) + "%")
+result = float((value*VAT)/100)
+print("The result is : " + result)
