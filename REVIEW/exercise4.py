@@ -1,4 +1,17 @@
 num1 = int(input("Enter a number : "))
 num2 = int(input("Enter a second number : "))
-result = num1 + num2
-print("The result of the two number is : "+ str(result))
+
+sum = num1 + num2
+print(f"The sum of the two number is : {sum}")
+
+diff = num1 - num2
+print(f"The difference of the two number is : {diff}")
+
+prod = num1 * num2
+print(f"The product of the two number is : {prod}")
+
+quot = num1 / num2
+print(f"The quotient of the two number is : {quot}")
+
+mod = num1 % num2
+print(f"The modulus of the two number is : {mod}")
