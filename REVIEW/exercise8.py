@@ -1,7 +1,6 @@
 value = input("Enter  between 1 to 3 words : ")
 words = value.split()
 
-#if 1 <= len(words) <= 3:
 if len(words) >= 1 and len(words) <= 3 :
     for word in words:
         print(f"The Word : {word}")
