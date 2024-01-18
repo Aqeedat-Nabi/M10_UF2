@@ -1,5 +1,9 @@
-phrase = input("Write a phrase : ")
+word = input("Write a word : ")
 
-phrase_tuple = phrase.replace(" " , "")
+word_tuple = word.replace(" " , "")
 
-print(f"The Content of the phrase without spaces is as follows : \n  {phrase_tuple}")
+print(f"The Content of the phrase without spaces is as follows : \n  {word_tuple}")
+
+word_set = set(word)
+
+print(f"The Content of the phrase without duplication is as follows : \n  {word_set}")
