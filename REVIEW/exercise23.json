@@ -1,0 +1,39 @@
+{
+  "book": [
+    {
+      "id": 1,
+      "title": "Cosmos",
+      "cover": "Cosmos.jpg",
+      "year": 1990,
+      "pages": 500
+    },
+    {
+      "id": 2,
+      "title": "A Journey Through Space",
+      "cover": "GalaxyExplorer.jpg",
+      "year": 2005,
+      "pages": 350
+    },
+    {
+      "id": 3,
+      "title": "A Brief History of Time",
+      "cover": "Time.jpg",
+      "year": 2012,
+      "pages": 200
+    },
+    {
+      "id": 4,
+      "title": "Gravity's Rainbow",
+      "cover": "Gravity.jpg",
+      "year": 1850,
+      "pages": 600
+    },
+    {
+      "id": 5,
+      "title": "Black Holes and Baby Universes",
+      "cover": "MysticalScrolls.jpg",
+      "year": 1850,
+      "pages": 600
+    }
+  ]
+}

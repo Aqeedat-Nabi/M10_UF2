@@ -1,17 +1,22 @@
-num1 = int(input("Enter a number : "))
-num2 = int(input("Enter a second number : "))
+import random
 
-sum = num1 + num2
-print(f"The sum of the two number is : {sum}")
+# num1 = int(input("Enter a number : "))
+# num2 = int(input("Enter a second number : "))
 
-diff = num1 - num2
-print(f"The difference of the two number is : {diff}")
+def add_nums(num1 , num2) :
+    return num1 + num2
 
-prod = num1 * num2
-print(f"The product of the two number is : {prod}")
+# diff = num1 - num2
+# print(f"The difference of the two number is : {diff}")
 
-quot = num1 / num2
-print(f"The quotient of the two number is : {quot}")
+# prod = num1 * num2
+# print(f"The product of the two number is : {prod}")
 
-mod = num1 % num2
-print(f"The modulus of the two number is : {mod}")
+# quot = num1 / num2
+# print(f"The quotient of the two number is : {quot}")
+
+# mod = num1 % num2
+# print(f"The modulus of the two number is : {mod}")
+
+def random_num(num1, num2):
+    return random.randint(min(num1, num2), max(num1, num2))
